@@ -2,7 +2,7 @@
 	"name": "groupstarrepo",
 	"displayName": "Group Star Repo",
 	"description": "群组中批量star git项目",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "Enoch",
 	"repository": {
 		"type": "git",

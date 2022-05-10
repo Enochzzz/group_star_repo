@@ -45,7 +45,6 @@ async function handleStarRepo(info: any, octokit: any, postMes: Function) {
       owner,
       repo
     });
-    console.log(res, 777777777);
     const validate = new Vaildate;
     validate.addRule({
       rule: res.status === OK_STATUS,

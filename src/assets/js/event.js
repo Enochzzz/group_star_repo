@@ -70,7 +70,6 @@ function messageHandle(event) {
       createLog(`${message.content}！`, "success");
       break;
     case "getStorage_webview":
-      console.log(message.type, message.content, 111);
       getStorageHandle(message.type, message.content);
       break;
     default:
@@ -84,7 +83,6 @@ function messageHandle(event) {
  * @param {*} content
  */
 function getStorageHandle(type, content) {
-  console.log(type, content, 2222);
   switch (type) {
     case "git_token_study_plan":
       try {
