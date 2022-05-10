@@ -32,10 +32,10 @@ function updateToken() {
  * @returns
  */
 function submit() {
-  // if (!git_token.value) {
-  //   createLog(`请先配置git token！`);
-  //   return;
-  // }
+  if (!git_token.value) {
+    createLog(`请先配置git token！`);
+    return;
+  }
   if (!repoList.length) {
     createLog('请先选择文件');
     return;
