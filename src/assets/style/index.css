@@ -1,0 +1,178 @@
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+#editor {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#md-area {
+  flex: 1;
+  outline: none;
+  height: 350px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#view-area {
+  flex: 1;
+  box-sizing: border-box;
+  height: 350px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.title {
+  display: flex;
+  width: 80%;
+  margin: 20px auto 0 auto;
+}
+
+.title span {
+  flex: 1;
+  height: 40px;
+  text-align: center;
+}
+
+.btn-group {
+  /* display: flex;
+  justify-content: flex-end; */
+  margin: 20px 0;
+  /* width: 80%; */
+}
+
+.col_49 {
+  color: #409EFF;
+}
+
+.col_ffa {
+  color: #ffa500;
+}
+
+.btn {
+  outline: none;
+  background-color: #409EFF;
+  min-width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#log {
+  color: red;
+  width: 80%;
+  margin: 20px auto;
+  padding: 0;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#log li {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.git {
+  /* width: 80%; */
+  margin: 20px 0;
+  /* text-align: right; */
+}
+
+.input {
+  outline: none !important;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.ps {
+  width: 80%;
+  margin: 0px auto 20px auto;
+  /* text-align: right; */
+}
+
+.tip_text {
+  color: #999;
+  font-size: 16px;
+}
+
+.disabled {
+  background-color: #ccc;
+}
+
+ul {
+  list-style: none;
+}
+
+.display_none {
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.right {
+  flex: 1;
+}
+
+.left {
+  flex: 2;
+  margin-right: 20px;
+}
+
+/*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+ ::-webkit-scrollbar
+ {
+     width:2px;
+     height:16px;
+     background-color:#F5F5F5;
+ }
+ /*定义滚动条轨道
+  内阴影+圆角*/
+ ::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow:inset 0 0 6px rgba(177, 228, 236, 0.3);
+     border-radius:10px;
+     background-color:#F5F5F5;
+ }
+ /*定义滑块
+  内阴影+圆角*/
+ ::-webkit-scrollbar-thumb
+ {
+     border-radius:10px;
+     -webkit-box-shadow:inset 0 0 6px rgba(149, 218, 189, 0.3);
+     background-color:#555;
+ }
+
+ .file {
+   margin: 20px 0;
+ }
